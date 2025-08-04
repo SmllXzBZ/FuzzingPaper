@@ -60,7 +60,6 @@
   - [Tacoma: Enhanced Browser Fuzzing with Fine-Grained Semantic Alignment](https://dl.acm.org/doi/10.1145/3650212.3680351)
   - [Prospector: Boosting Directed Greybox Fuzzing for Large-Scale Target Sets with Iterative Prioritization](https://dl.acm.org/doi/10.1145/3650212.3680365)
   - [FRIES: Fuzzing Rust Library Interactions via Efficient Ecosystem-Guided Target Generation](https://dl.acm.org/doi/10.1145/3650212.3680348)
-  - [Logos: Log Guided Fuzzing for Protocol Implementations](https://dl.acm.org/doi/10.1145/3650212.3680394)
   - [Policy Testing with MDPFuzz (Replicability Study)](https://dl.acm.org/doi/10.1145/3650212.3680382)
   - [Sleuth: A Switchable Dual-Mode Fuzzer to Investigate Bug Impacts Following a Single PoC](https://dl.acm.org/doi/10.1145/3650212.3680316)
 - **ESEC/FSE 2024**
