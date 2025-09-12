@@ -3395,7 +3395,7 @@ To overcome the problems, we design and implement ETHPLOIT, a smart contract exp
 
 * <img src="image/pdf_24px.png">[Paper](https://cybersecurity.springeropen.com/track/pdf/10.1186/s42400-019-0028-9)
 
-* <img src="image/ppt_24px.png">[Slides](./Paper/CCS18_Revery_Slides)
+* <img src="image/ppt_24px.png">[Slides](./Paper/CCS18_Revery_Slides.pdf)
 
 * <img src="image/youtube.png">[Video](https://www.youtube.com/watch?v=QsG_nTBSN4c)
 
@@ -3410,7 +3410,7 @@ We have developed a prototype system and evaluated it on a set of 19 CTF (captur
 
 * <img src="image/pdf_24px.png">[Paper](./Paper/CCS18_Revery.pdf)
 
-* <img src="image/ppt_24px.png">[Slides](./Paper/CCS18_Revery_Slides)
+* <img src="image/ppt_24px.png">[Slides](./Paper/CCS18_Revery_Slides.pdf)
 
 * <img src="image/youtube.png">[Video](https://www.youtube.com/watch?v=QsG_nTBSN4c)
 
@@ -4690,7 +4690,7 @@ We evaluate QFuzz on a large set of benchmarks from existing work and real-world
 
 ### ct-fuzz: Fuzzing for Timing Leaks (ICST 2020)
 
-* <img src="image/pdf_24px.png">[Paper](./Paper/ICST20_ct-fuzZ.pdf)
+* <img src="image/pdf_24px.png">[Paper](./Paper/ICST20_ct-fuzz.pdf)
 
 **Abstract:** Testing-based methodologies like fuzzing are able to analyze complex software which is not amenable to traditional formal approaches like verification, model checking, and abstract interpretation. Despite enormous success at exposing countless security vulnerabilities in many popular software projects, applications of testing-based approaches have mainly targeted checking traditional safety properties like memory safety. While unquestionably important, this class of properties does not precisely characterize other important security aspects such as information leakage, e.g., through side channels. In this work we extend testing-based software analysis methodologies to two-safety properties, which enables the precise discovery of information leaks in complex software. In particular, we present the ct-fuzz tool, which lends coverage-guided greybox fuzzers the ability to detect two-safety property violations. Our approach is capable of exposing violations to any two-safety property expressed as equality between two program traces. Empirically, we demonstrate that ct-fuzz swiftly reveals timing leaks in popular cryptographic implementations.
 
@@ -4914,7 +4914,7 @@ We present experimental results showing that these two techniques are necessary 
 
 ### Fuzzing JavaScript Environment APIs with Interdependent Function Calls (IFM 2019)
 
-* <img src="image/pdf_24px.png">[Paper]([./Paper/ICSE19_RESTler.pdf](https://link.springer.com/chapter/10.1007/978-3-030-34968-4_12))
+* <img src="image/pdf_24px.png">[Paper](https://link.springer.com/chapter/10.1007/978-3-030-34968-4_12)
 
 **Abstract:** The prevalence of the JavaScript programming language makes the correctness and security of its execution environments highly important. The most exposed and vulnerable parts of these environments are the APIs published to the executed untrusted JavaScript programs. This paper revisits the fuzzing technique that generates JavaScript environment API calls using random walks on so-called prototype graphs to uncover potentially security-related failures. We show the limits of generating independent call expressions, the approach of prior work, and give an extension to enable the generation of interdependent API calls that re-use each other's results. We demonstrate with an experiment that this enhancement allows our approach to exercise JavaScript environment APIs in ways that were not possible with the previous approach, and that it can also trigger more issues in a real target.
 
